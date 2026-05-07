@@ -7,6 +7,7 @@ import Impact from '@/components/Impact';
 import Partners from '@/components/Partners';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Impact />
       <Partners />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }
