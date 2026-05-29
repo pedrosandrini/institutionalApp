@@ -20,9 +20,10 @@ export default function Hero() {
         </div>
         
         <h1 className="text-[2.5rem] md:text-hero font-bold leading-tight mb-6 tracking-tight reveal" style={{ transitionDelay: '200ms' }}>
-          Inteligência Artificial<br />
-          <span className="text-[#6BE900]">aplicada à transparência</span><br />
-          e ao impacto.
+          Inteligência Artificial para<br />
+          <span className="text-[#6BE900]">democratizar o acesso</span><br />
+          à captação de recursos e impulsionar<br />
+          projetos inteligentes.
         </h1>
         
         <p className="text-xl md:text-2xl text-[#EFEFEF]/80 font-light mb-12 max-w-2xl reveal" style={{ transitionDelay: '400ms' }}>
