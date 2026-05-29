@@ -1,17 +1,8 @@
 export default function Partners() {
   const partners = [
-    {
-      name: "Liga Feminina de Combate ao Câncer de NH",
-      description: "Parceria estratégica para captação de recursos e gestão de projetos na área da saúde."
-    },
-    {
-      name: "SOS do Bem",
-      description: "Apoio institucional e consultoria para ampliar o impacto social das iniciativas."
-    },
-    {
-      name: "IDE Social do Recife",
-      description: "Desenvolvimento de projetos de transformação social com foco em comunidades vulneráveis."
-    }
+    { name: "ILC", logo: "/logos/empresas/logo_ILC.webp" },
+    { name: "Foothub", logo: "/logos/empresas/logo_foothub_.webp" },
+    { name: "IDE Social", logo: "/logos/empresas/logo_ide.png" }
   ];
 
   return (
@@ -23,22 +14,18 @@ export default function Partners() {
           <p className="text-xl text-[#414548] font-light">Grandes Parceiros</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-16">
+        <div className="flex flex-wrap justify-center items-center gap-16 md:gap-24">
           {partners.map((partner, index) => (
-            <div 
-              key={index} 
-              className="reveal flex flex-col items-center md:items-start text-center md:text-left group"
+            <div
+              key={index}
+              className="reveal group flex items-center justify-center"
               style={{ transitionDelay: `${index * 150}ms` }}
             >
-              {/* Typographic "Logo" placeholder since we don't have images */}
-              <div className="h-24 w-full flex items-center justify-center md:justify-start mb-6 border-b border-[#414548]/20 pb-6 group-hover:border-[#6BE900] transition-colors duration-300">
-                <h3 className="text-2xl font-bold font-serif italic text-[#414548] group-hover:text-[#262626] transition-colors duration-300">
-                  {partner.name}
-                </h3>
-              </div>
-              <p className="text-[#414548] leading-relaxed">
-                {partner.description}
-              </p>
+              <img
+                src={partner.logo}
+                alt={partner.name}
+                className="h-16 md:h-20 w-auto object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+              />
             </div>
           ))}
         </div>
