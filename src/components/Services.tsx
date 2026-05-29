@@ -1,32 +1,44 @@
 export default function Services() {
   const services = [
     {
-      title: "PMO Inteligente (Noé)",
+      title: "Radar de Editais (Noé / IA)",
+      description: "Monitoramento diário para identificar e acessar fontes de financiamento do mundo todo para o seu projeto acontecer.",
+      features: [
+        "Monitoramento global de editais",
+        "Alertas diários personalizados",
+        "Fontes de financiamento variadas",
+        "Match inteligente com seu projeto"
+      ]
+    },
+    {
+      title: "Projetos Inteligentes (Noé / IA)",
+      description: "Montamos sua ideia em projetos inteligentes para captação de recursos.",
+      features: [
+        "Estruturação de projetos",
+        "Otimização para captação",
+        "Análise de viabilidade com IA",
+        "Documentação estratégica"
+      ]
+    },
+    {
+      title: "Prestação de Contas (IA / Noé)",
+      description: "Prestação de contas com IA para uma transparência radical.",
+      features: [
+        "Relatórios automatizados",
+        "Transparência radical",
+        "Compliance inteligente",
+        "Auditoria assistida por IA"
+      ]
+    },
+    {
+      title: "PMO Inteligente (Noé / IA)",
       url: "https://dev.arcaprojetos.com.br/",
-      description: "Monitoramento Preditivo de Desvios (IA): Identificação antecipada de riscos orçamentários e operacionais antes que impactem o cronograma.",
+      description: "Gerente de Projetos inteligente com a Noé (IA) para controlar custo, cronograma e compliance do teu projeto.",
       features: [
-        "Análise de Compliance",
-        "Automação",
-        "Dashboards em tempo real",
-        "Alertas de custo"
-      ]
-    },
-    {
-      title: "Captação de Recursos",
-      description: "Expertise em identificar e acessar fontes de financiamento para viabilizar projetos de alto impacto com IA.",
-      features: [
-        "Editais eficientes",
-        "Leis de incentivo",
-        "Parcerias estratégicas"
-      ]
-    },
-    {
-      title: "Apoio Institucional",
-      description: "Consultoria especializada para fortalecer a governança e ampliar a capacidade de execução com IA.",
-      features: [
-        "Diagnóstico organizacional",
-        "Planejamento estratégico",
-        "Capacitação de equipes"
+        "Controle de custos",
+        "Gestão de cronograma",
+        "Compliance automatizado",
+        "Dashboards em tempo real"
       ]
     }
   ];
@@ -40,7 +52,7 @@ export default function Services() {
           <p className="text-xl text-[#414548] font-light">Soluções Completas</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 
