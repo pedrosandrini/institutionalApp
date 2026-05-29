@@ -5,7 +5,7 @@ export default function About() {
         
         <div className="reveal text-center mb-24">
           <p className="text-2xl md:text-4xl font-light italic leading-relaxed text-[#414548]">
-            "Existimos para que a gestão de impacto com IA seja uma ciência de alta performance e a falta de tecnologia nunca seja o limite de uma grande causa."
+            "Existimos para que independente do tamanho do teu projeto, a falta de tecnologia e recursos nunca sejam o limite para uma grande causa."
           </p>
         </div>
 

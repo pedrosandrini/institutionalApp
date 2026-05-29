@@ -14,7 +14,7 @@ export default function Footer() {
 
           <div className="max-w-md text-center md:text-right">
             <p className="text-lg font-light italic text-[#EFEFEF]/70 mb-4">
-              "A tecnologia constrói a eficiência, mas é o propósito que constrói o legado. Onde a inteligência encontra a governança, o impacto se torna inevitável."
+              "A IA acelera e escala, mas é o propósito que impacta de verdade. Democratizando o acesso a recursos públicos & privados."
             </p>
             <p className="text-sm text-[#6BE900] font-semibold">
               "Tudo tem o seu tempo determinado, e há tempo para todo propósito debaixo do céu." - Eclesiastes 3:1
