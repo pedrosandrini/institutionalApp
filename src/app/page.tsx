@@ -5,6 +5,7 @@ import Services from '@/components/Services';
 import Team from '@/components/Team';
 import Impact from '@/components/Impact';
 import Partners from '@/components/Partners';
+import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
 import WhatsAppButton from '@/components/WhatsAppButton';
@@ -20,6 +21,7 @@ export default function Home() {
       <Team />
       <Impact />
       <Partners />
+      <CTA />
       <Footer />
       <WhatsAppButton />
     </main>
