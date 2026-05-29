@@ -2,7 +2,7 @@ export default function Team() {
   const team = [
     {
       name: "Bruno Vedooto",
-      role: "CEO / CFO",
+      role: "Fundador",
       image: "/team/bruno.jpg",
       expertise: "Gestão de portfólios e projetos > R$ 300 milhões.",
       focus: "Viabilização de recursos e governança robusta.",
@@ -10,7 +10,7 @@ export default function Team() {
     },
     {
       name: "Viccenzo Zang",
-      role: "CTO",
+      role: "Diretor de Tecnologia",
       image: "/team/viccenzo.png",
       expertise: "Arquiteto especialista em IA, sistemas distribuídos.",
       focus: "Automação de governança e análise preditiva.",
@@ -18,7 +18,7 @@ export default function Team() {
     },
     {
       name: "Jaime Freitas",
-      role: "Diretor de Marketing",
+      role: "CMO - Relações Públicas",
       image: "/team/jaimes.jpg",
       expertise: "Parcerias estratégicas e expansão de ecossistemas.",
       focus: "Posicionamento e canais de alto nível.",
